@@ -9,6 +9,7 @@
 }
 .Weather form {
   border: none;
+  padding: 0;
 }
 .Weather ul {
   margin: 0;
