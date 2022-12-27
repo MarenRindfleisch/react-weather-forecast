@@ -21,6 +21,7 @@ export default function Weather(props) {
       wind: response.data.wind.speed,
       coordinates: response.data.coord,
     });
+    console.log(response);
   }
 
   function handleSubmit(event) {

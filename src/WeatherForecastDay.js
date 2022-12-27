@@ -20,7 +20,12 @@ export default function WeatherForecastDay(props) {
     <div className="WeatherForecastDay">
       <div>{formatDay()}</div>
       <div>
-        <img src={iconUrl} alt={props.data.weather[0].description} />
+        <img
+          src={iconUrl}
+          alt={props.data.weather[0].description}
+          width="50"
+          height="50"
+        />
       </div>
       <span>
         {showMinTemp()} | {showMaxTemp()}
